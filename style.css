@@ -1,0 +1,75 @@
+.main li::before,
+.main li::after {
+    display: inline-block;
+    margin-right: 10px;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    content: '';
+    background-image: url('/images/quotes.png');
+    background-repeat: no-repeat;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.nav ul li.pdf::after {
+    display: inline-block;
+    margin-left: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: ''; 
+    background-image: url('/images/pdf.png');
+   background-repeat: no-repeat;
+}
+
+.nav ul li.doc::after {
+    display: inline-block;
+    margin-left: 10px;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: ''; 
+    background-image: url('/images/ms-word.png');
+   background-repeat: no-repeat;
+}
+.nav ul li:nth-child(2)::after {
+display: inline-block;
+margin-left: 10px;
+background-size: contain;
+width: 2rem;
+height: 2rem;
+content: ''; 
+background-image: url('/images/ms-excel.png');
+background-repeat: no-repeat;
+}
+.sandwich {
+    border: black solid 2px;
+    margin-top: 30px;
+}
+.sandwich::before {
+    content: "";
+    display: block;
+    height: 20px;
+    background: linear-gradient( -0.40turn,#d38fce , #169ead )
+  } 
+ 
+.sandwich::after {
+    content: "";
+    height: 20px; 
+    display: block;
+    
+    background: linear-gradient( 0.40turn, #d38fce , #169ead )
+ }   
+ ul li {
+    list-style: none;
+ }                             
+ 
+
+
+
+
+
+
